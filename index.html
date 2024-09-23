@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Defines the character encoding and responsiveness of the webpage -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>phil</title>
+
+    <!-- Boxicons CDN for icons used in the site -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Link to external stylesheet for custom styles -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- Header section of the webpage -->
+    <header class="header">
+        <!-- Logo link -->
+        <a href="#" class="logo">phil Technologies</a>
+        <!-- Menu icon for mobile navigation -->
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <!-- Navigation links -->
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home section where the hero content is displayed -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <!-- Heading and introduction -->
+            <h3>hello , its me</h3>
+            <h1>Philip Njoroge</h1>
+            <h3>and i'm a <span class="multiple-text"></span></h3>
+
+            <!-- Short introduction about yourself -->
+            <p>I have experience in DevOps, focusing on distributed systems and automation.
+                I'm skilled in full-stack web development, including both frontend and backend work.
+                I also have a solid understanding of networking and system architecture, enabling me to design
+                and maintain scalable and reliable infrastructures.</p>
+
+            <!-- Social media icons -->
+            <div class="social-media">
+                <a href="mailto:pnjuguna.main@gmail.com"><i class='bx bx-envelope'></i></a>
+                <a href="https://x.com/philipnjor60319"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.instagram.com/philrazor"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://github.com/philrazor"><i class='bx bxl-github'></i></a>
+            </div>
+
+            <!-- Download CV button -->
+            <a href="#" class="btn">Download CV</a>
+        </div>
+
+        <!-- Image displayed on the home section -->
+        <div class="home-image">
+            <img src="images/home.png" alt="">
+        </div>
+    </section>
+
+    <!-- About section -->
+    <section class="about" id="about">
+        <div class="about-image">
+            <img src="images/about.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <!-- Heading for the about section -->
+            <h2 class="heading">About <span>Me</span></h2>
+
+            <!-- Description of your skills and expertise -->
+            <p>I studied Computer Science and have built a strong foundation in various technologies.
+                My expertise includes working with frameworks like Django and Flask, and I'm proficient in Python, JavaScript, and Bootstrap for web development.
+                In the DevOps space, I’m experienced with Kubernetes, Docker, Ansible, and Terraform, and have worked with cloud platforms like AWS and Azure. I
+                also have a solid understanding of RabbitMQ and SQL for backend services and database management.</p>
+
+            <!-- Read more button -->
+            <a href="#portfolio" class="btn">Projects</a>
+        </div>
+    </section>
+
+    <!-- Services section -->
+    <section class="services" id="services">
+        <!-- Section heading -->
+        <h2 class="heading">Our <span>services</span></h2>
+
+        <!-- Container for different service cards -->
+        <div class="services-container">
+            <!-- First service: Web Development -->
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Full-Stack Web Development
+                </h3>
+                <p>I specialize in building responsive and dynamic web applications, utilizing Django or Flask for
+                     backend development, and modern frontend technologies like JavaScript and Bootstrap for a seamless 
+                     user experience.</p>
+                <a href="mailto:pnjuguna.main@gmail.com" class="btn">Enquire</a>
+            </div>
+
+            <!-- Second service: Distributed Systems -->
+            <div class="services-box">
+                <i class='bx bxl-kubernetes'></i>
+                <h3>DevOps Consulting and Automation</h3>
+                <p>I offer expert guidance in automating infrastructure, setting up CI/CD pipelines, 
+                    and managing cloud environments with tools like Kubernetes, Docker, and Terraform, 
+                    ensuring smooth deployment and scalability.</p>
+                <a href="mailto:pnjuguna.main@gmail.com" class="btn">Enquire</a>
+            </div>
+
+            <!-- Third service: Networking -->
+            <div class="services-box">
+                <i class='bx bx-signal-5'></i>
+                <h3>Distributed Systems Design</h3>
+                <p>I design robust, scalable distributed systems, implementing microservices and message-driven 
+                    architectures using RabbitMQ and ensuring efficient system performance with cloud-based solutions.</p>
+                <a href="mailto:pnjuguna.main@gmail.com" class="btn">Enquire</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio section -->
+    <section class="portfolio" id="portfolio">
+        <!-- Section heading -->
+        <h3 class="heading">Latest <span>Projects</span></h3>
+
+        <!-- Portfolio items displayed in a grid -->
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/portfolio1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, provident?</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <!-- Other portfolio projects go here in the same format -->
+            <div class="portfolio-box">
+                <img src="images/portfolio2.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, provident?</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio3.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, provident?</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <!-- Other portfolio projects go here in the same format -->
+            <div class="portfolio-box">
+                <img src="images/portfolio4.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, provident?</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <!-- Other portfolio projects go here in the same format -->
+            <div class="portfolio-box">
+                <img src="images/portfolio5.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, provident?</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <!-- Other portfolio projects go here in the same format -->
+            <div class="portfolio-box">
+                <img src="images/portfolio6.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, provident?</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+        <!-- Contact section heading -->
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <!-- Contact form with input fields -->
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="Email address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile number">
+                <input type="text" placeholder="Email subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your message"></textarea>
+            <input type="submit" value="Send message" class="btn">
+        </form>
+    </section>
+
+    <!-- Footer section -->
+    <footer class="footer">
+        <!-- Copyright text -->
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 Designed by phil Technologies | All Rights Reserved</p>
+        </div>
+
+        <!-- Scroll to top icon -->
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <!-- External scripts for scroll and typed effects -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
